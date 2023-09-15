@@ -73,7 +73,7 @@ if (selected == 'Diabetes Prediction'):
     
     # creating a button for Prediction
     
-    if st.button('Diabetes Test Result'):
+    if st.button('Résultat du test de diabète'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
@@ -173,7 +173,7 @@ if (selected == 'Heart Disease Prediction'):
     
     # creating a button for Prediction
     
-    if st.button('Heart Disease Test Result'):
+    if st.button('Résultat du test de maladie cardiaque'):
         heart_prediction = heart_disease_model.predict([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])                          
         
         if (heart_prediction[0] == 1):
@@ -266,7 +266,7 @@ if (selected == "Parkinsons Prediction"):
     parkinsons_diagnosis = ''
     
     # creating a button for Prediction    
-    if st.button("Parkinson's Test Result"):
+    if st.button("Résultat du test de la maladie de Parkinson"):
         parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
         
         if (parkinsons_prediction[0] == 1):
