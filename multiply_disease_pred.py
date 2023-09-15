@@ -187,7 +187,7 @@ if (selected == 'Prédiction des maladies cardiaques'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Prédiction des maladies cardiaques"):
+if (selected == "Prédiction de la maladie de Parkinson"):
     
     # page title
     st.title("Prédiction de la maladie de Parkinson à l\'aide du Machine Learning")
