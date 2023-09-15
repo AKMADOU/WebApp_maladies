@@ -34,7 +34,7 @@ with st.sidebar:
     
     
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+if (selected == 'Prédiction du diabète'):
     
     # page title
     st.title('Prédiction du diabète à l\'aide du Machine Learning')
@@ -119,7 +119,7 @@ if (selected == 'Diabetes Prediction'):
 
 
 # Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
+if (selected == 'Prédiction des maladies cardiaques'):
     
     # page title
     st.title('Prédiction des maladies cardiaques à l\'aide du Machine Learning')
@@ -187,7 +187,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Parkinsons Prediction"):
+if (selected == "Prédiction des maladies cardiaques"):
     
     # page title
     st.title("Prédiction de la maladie de Parkinson à l\'aide du Machine Learning")
