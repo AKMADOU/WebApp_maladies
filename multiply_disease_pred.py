@@ -100,8 +100,7 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'La personne n\'est pas diabétique'
             # Ajoutez les conseils si la personne n'est pas diabétique
           st.write("Conseils pour maintenir une bonne santé :")
-          st.write("1. Adoptez une alimentation équilibrée : Consommez des fruits et des légumes frais, Choisissez des protéines maigres comme le poulet, le poisson et les légumineuses.
-                    Limitez la consommation d'aliments riches en sucre et en matières grasses.")
+          st.write("1. Adoptez une alimentation équilibrée : Consommez des fruits et des légumes frais, Choisissez des protéines maigres comme le poulet, le poisson et les légumineuses.")
           st.write("2. Contrôlez les portions : Évitez les portions excessives et surveillez votre apport calorique total.")
           st.write("3. Faites de l'exercice régulièrement : Essayez de faire au moins 30 minutes d'exercice modéré la plupart des jours de la semaine.")
           st.write("4. Surveillez votre poids : Maintenez un poids corporel sain en équilibrant votre apport calorique et votre dépense énergétique.")
