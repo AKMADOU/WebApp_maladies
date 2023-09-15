@@ -77,9 +77,9 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = 'The person is diabetic'
+          diab_diagnosis = 'La personne est diabétique'
         else:
-          diab_diagnosis = 'The person is not diabetic'
+          diab_diagnosis = 'La personne n'est pas diabétique'
         
     st.success(diab_diagnosis)
 
@@ -145,9 +145,9 @@ if (selected == 'Heart Disease Prediction'):
         heart_prediction = heart_disease_model.predict([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])                          
         
         if (heart_prediction[0] == 1):
-          heart_diagnosis = 'The person is having heart disease'
+          heart_diagnosis = 'La personne a une maladie cardiaque'
         else:
-          heart_diagnosis = 'The person does not have any heart disease'
+          heart_diagnosis = 'La personne n'a pas de maladie cardiaque'
         
     st.success(heart_diagnosis)
         
@@ -238,8 +238,8 @@ if (selected == "Parkinsons Prediction"):
         parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
         
         if (parkinsons_prediction[0] == 1):
-          parkinsons_diagnosis = "The person has Parkinson's disease"
+          parkinsons_diagnosis = "La personne a la maladie de Parkinson"
         else:
-          parkinsons_diagnosis = "The person does not have Parkinson's disease"
+          parkinsons_diagnosis = "La personne n'a pas la maladie de Parkinson"
         
     st.success(parkinsons_diagnosis)
