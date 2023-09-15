@@ -78,8 +78,39 @@ if (selected == 'Diabetes Prediction'):
         
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'La personne est diabétique'
+            # Afficher le diagnostic pour une personne diabétique
+            st.warning(diab_diagnosis)
+            
+            # Afficher les conseils pour gérer le diabète
+            st.write("Conseils pour gérer le diabète :")
+            st.write("1. Suivez les recommandations médicales : Écoutez votre professionnel de la santé et suivez votre plan de traitement.")
+            st.write("2. Contrôlez régulièrement votre taux de glucose sanguin : Mesurez votre glycémie comme recommandé.")
+            st.write("3. Adoptez un régime alimentaire équilibré : Consultez un diététicien pour un plan alimentaire adapté.")
+            st.write("4. Gérez les glucides : Apprenez à compter les glucides pour ajuster votre médication.")
+            st.write("5. Faites de l'exercice régulièrement : Suivez un programme d'exercice approuvé par votre médecin.")
+            st.write("6. Surveillez votre poids : Maintenez un poids sain.")
+            st.write("7. Évitez le tabac : Arrêtez de fumer si vous fumez.")
+            st.write("8. Limitez la consommation d'alcool : Buvez de l'alcool avec modération.")
+            st.write("9. Prenez soin de vos pieds et de votre peau : Inspectez régulièrement vos pieds et hydratez votre peau.")
+            st.write("10. Restez informé : Apprenez constamment sur le diabète et ses traitements.")
+            st.write("11. Gérez le stress : Utilisez des techniques de gestion du stress.")
+            st.write("12. Consultez régulièrement votre médecin : Faites des bilans de santé réguliers.")
+
         else:
           diab_diagnosis = 'La personne n\'est pas diabétique'
+            # Ajoutez les conseils si la personne n'est pas diabétique
+            st.write("Conseils pour maintenir une bonne santé :")
+            st.write("1. Adoptez une alimentation équilibrée : Consommez des fruits et des légumes frais, Choisissez des protéines maigres comme le poulet, le poisson et les légumineuses.
+                    Limitez la consommation d'aliments riches en sucre et en matières grasses.")
+            st.write("2. Contrôlez les portions : Évitez les portions excessives et surveillez votre apport calorique total.")
+            st.write("3. Faites de l'exercice régulièrement : Essayez de faire au moins 30 minutes d'exercice modéré la plupart des jours de la semaine.")
+            st.write("4. Surveillez votre poids : Maintenez un poids corporel sain en équilibrant votre apport calorique et votre dépense énergétique.")
+            st.write("5. Évitez le tabac : Si vous fumez, envisagez d'arrêter. Le tabagisme est un facteur de risque pour de nombreuses maladies, dont le diabète de type 2.")
+            st.write("6. Limitez la consommation d'alcool : Si vous buvez de l'alcool, faites-le avec modération.")
+            st.write("7. Consultez régulièrement un professionnel de la santé : Effectuez des bilans de santé réguliers pour surveiller votre taux de glucose sanguin, votre pression artérielle, votre cholestérol, etc.")
+            st.write("8. Gérez le stress : Le stress excessif peut avoir un impact négatif sur la santé. Apprenez des techniques de gestion du stress, comme la méditation, le yoga ou la relaxation.")
+            st.write("9. Dormez suffisamment : Assurez-vous de dormir suffisamment chaque nuit pour favoriser la récupération et la régulation des hormones.")
+            st.write("10. Soyez conscient des facteurs de risque : Si vous avez des antécédents familiaux de diabète ou d'autres facteurs de risque, discutez-en avec un professionnel de la santé.")
         
     st.success(diab_diagnosis)
 
