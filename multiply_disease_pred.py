@@ -98,6 +98,8 @@ if (selected == 'Diabetes Prediction'):
 
         else:
           diab_diagnosis = 'La personne n\'est pas diabétique'
+            # Afficher le diagnostic pour une personne diabétique
+          st.warning(diab_diagnosis)
             # Ajoutez les conseils si la personne n'est pas diabétique
           st.write("Conseils pour maintenir une bonne santé :")
           st.write("1. Adoptez une alimentation équilibrée : Consommez des fruits et des légumes frais, Choisissez des protéines maigres comme le poulet, le poisson et les légumineuses.")
